@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* body{
+  background: linear-gradient(red,green);
+  width: 100%;
+  background-repeat: no-repeat;
+  
+  
+} */
+
+ .head-div{
+  background: linear-gradient(rgba(31, 11, 247, 0.67),rgba(247, 11, 140, 0.42)), url(images/imrano.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  
+} 
+.gifbar{
+  width: 270px;
+  height: 270px;
+  margin-left: 50px;
+  margin-top: 100px;
+  border-radius: 70px;
+  border: 5px solid yellow;
+  
+}
+
+.menu-bar{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.mlink{
+  text-decoration: none;
+  margin-left: 30px;
+  background: orange;
+  margin-top: 60px;
+  padding: 20px 40px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+  
+ 
+}
+.menu-bar:last-child{
+  margin-right: 50px;
+  
+  
+}
+.last{
+  text-decoration: line-through;
+  background: #9451C4;
+  color: #000;
+  margin-right: 50px;
+}
+ a{
+  color: white;
+
+}
+a:visited{
+  color: greenyellow;
+}
+a:hover{
+  background: darkred;
+  font-size: 20px;
+}
+a:focus{
+  font-size: 20px;
+  color: darkturquoise;
+}
+.mys{
+  margin-top: 40px;
+  flex-wrap: wrap;
+  
+}
+.ml{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 60px;
+}
+.myl{
+  font-size: 30px;
+  
+  margin-left: 70px;
+  margin-right: 50px;
+  color: rgba(52, 11, 247, 1);
+  font-weight: 600;
+}
+.myq{
+  margin-left: 400px;
+  color: rgba(52, 11, 247, 1);
+  font-size: 29px;
+  margin-top: 0px;
+}
+.my-some{
+  margin-top: 20px;
+}
+.msl{
+  color: rgba(52, 11, 247, 1);
+  font-size: 23px;
+  margin-left: 50px;
+  
+}
+
+.flw a{
+  text-decoration: overline;
+  font-size: 30px;
+}
