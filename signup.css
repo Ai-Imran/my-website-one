@@ -1,0 +1,48 @@
+body{
+  background: #BF3AB5DB;
+}
+
+.sign-main {
+  
+  margin-top: 30px;
+/*  display: flex;
+  flex-flow: column wrap;*/
+  
+}
+.same{
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  
+  
+}
+.gender{
+  margin-top: 15px;
+  font-size: 20px;
+  
+}
+.date{
+  margin-top: 20px;
+}
+
+.main-form{
+  margin-left: 20px;
+  font-size: 19px;
+}
+
+
+
+
+.sp{
+  margin-top: 60px;
+  text-align: center;
+}
+span{
+  
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+

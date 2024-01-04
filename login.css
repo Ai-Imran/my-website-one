@@ -1,0 +1,53 @@
+
+body{
+  background-color:#4AC0AA;
+}
+
+.log-main{
+  text-align: center;
+  background: #4E5A94;
+  height: 200px;
+  width: 250px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.log-main input{
+  background: #ddd;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;  /*বাইরে কোনো দাগ থাকবে না*/
+  font-size: 16px;
+}
+.log-main input:hover{
+  background: #5EA35A;
+  border: 0;
+}
+.btn{
+  width: 100px;
+  margin-top: 50px;
+  color: white;
+  background-color: #7F454F!important;
+}
+.btn:hover{
+  background: #7EA953!important;
+  color: red;
+}
+.rg-link{
+  margin-top: 20px;
+  
+}
+.rg-link span{
+  color: beige;
+  font-size: 13px;
+}
+.rg-link a{
+  color: #38C740C9;
+  text-decoration: none;
+}
+.rg-link a:hover{
+  color: #D7A125AD;
+}
