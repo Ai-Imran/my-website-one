@@ -30,6 +30,7 @@ body{
 .main-form{
   margin-left: 20px;
   font-size: 19px;
+  margin-bottom: 50px;
 }
 
 
@@ -44,5 +45,77 @@ span{
   font-size: 20px;
   font-weight: 600;
   text-align: center;
+}
+
+.color{
+  margin-top: 20px;
+}
+.color input{
+  margin-top: 10px;
+}
+.area{
+  margin-top: 20px;
+}
+.hi{
+  border-radius: 8px;
+  font-size: 14px;
+  background: white;
+  outline: none;
+}
+.file{
+  margin-top: 10px;
+}
+label{
+  
+}
+.choose{
+  margin-bottom: 15px;
+  
+  
+}
+.flex{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  color: #312F89E3;
+  
+}
+.reset{
+  margin-left: 5%;
+  border-radius: 5px;
+  border: 2px solid greenyellow;
+  outline: none;
+  font-size: 20px;
+  display: inline-block;
+  
+}
+.area{
+  margin-bottom: -20px;
+}
+.reset:hover{
+  background: #66C830DE;
+  border: 2px solid red;
+}
+.sign{
+  margin-left: 18%;
+  background: #59C830DE;
+  display: inline-block;
+  padding: 15px 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.sign a{
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  
+}
+.sign a:hover{
+  
+  color: white;
+  background: #D015BADE;
+  border-radius: 10px;
 }
 
