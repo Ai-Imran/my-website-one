@@ -6,7 +6,7 @@ body{
  /* background: linear-gradient(rgba(31, 11, 247, 0.67),rgba(247, 11, 140, 0.42)), url(images/imrano.jpg); */
 /* background: url(images/imrano.jpg);
  background: red; */
- background:  linear-gradient(#E1E21EB5,#3F956E99,#BA289899,#651EE299), url(images/imrano.jpg); 
+ background:  linear-gradient(#CAB11CB5,#3F956E99,#BA289899,#651EE299), url(images/imrano.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -34,6 +34,7 @@ body{
 .menu-bar{
   display: flex;
   justify-content: flex-start;
+  margin-left: 97%;
   
   
   
@@ -43,7 +44,7 @@ body{
   margin-left: 30px;
   background: orange;
   margin-top: 60px;
-  padding: 20px 40px;
+  padding: 20px 50px;
   border: 2px solid blue;
   border-radius: 20px;
   text-align: center;
@@ -66,6 +67,7 @@ body{
 }
  a{
   color: white;
+  
 
 }
 a:visited{
@@ -124,9 +126,92 @@ a:focus{
   font-size: 40px;
   color: #36E226;
   margin-top: 200px;
+  font-style: italic;
 }
 .sir-respect{
   margin-top: 100px;
+  font-size: 50px;
+  margin-left: 40px;
+  color:#0DCD6DF5;
+  color: #FFEFEF;
+  color: aliceblue;
+  font-weight: 500;
+  width: 800px;
+  text-align: center;
+/*  border: 4px solid #57FF05;
+  height: 1200px; */
+  overflow: auto;
+  margin-bottom: 200px;
+  
+}
+.hone{
+  width: 800px;
+  position : sticky;
+  top: 0;
+  left: 0;
+}
+.hca{
+  width: 700px;
+  text-align: center;
+  margin-left: 3%;
+  margin-bottom: 40px;
+  background: linear-gradient(red,green);
+  padding: 40px 80px;
+  border-radius: 25px;
+  color: white;
+  font-size: 50px;
+  
+  
+}
+.main-class{
+  width: 800px;
+   /* height: 900px;
+  border: 3px solid red;*/
+  margin-left: 70px;
+  font-size: 45px;
+  color: #FFEFEF;
+  font-weight: 600;
+  overflow: auto;
+  margin-bottom: 100px;
+  text-align: center;
+  
+}
+.main-class p{
+  
+  padding: 20px 10px;
+  color:white;
+}
+.contact {
+  font-size: 30px;
+  margin-left: 80px;
+  width: 800px;
+/*  border: 3px solid greenyellow; */
+  margin-bottom: 100px;
+  
+  
+  
+  
+}
+
+.fl{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+ text-align: center;
+  
+  
+}
+strong{
   font-size: 40px;
-  margin-left: 90px;
+  margin-left: 50px;
+}
+.footer{
+  font-size: 40px;
+  text-align: center;
+  margin-left: 40%;
 }
