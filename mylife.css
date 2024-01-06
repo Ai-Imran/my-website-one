@@ -12,8 +12,9 @@ body{
   
   width: 100%;
   height: 350px;
-  background: linear-gradient(yellow,green);
   
+  background: linear-gradient(greenyellow,blue); 
+  margin-bottom: 45px;
 
 }
 .my-link h1{
@@ -24,32 +25,104 @@ body{
   padding: 5px;
   color: ghostwhite;
   border-radius: 3px;
-  margin-bottom: 15px;
+  
   
 }
 .my-link h2{
   text-align: center;
   font-size: 20px;
   margin-bottom: 40px;
+  color: ghostwhite;
+  margin-top: 15px;
 }
 .link{
   margin-left: 20px;
+  margin-bottom: 40px;
 }
 i{
   font-size: 30px;
   margin-left: 37px;
   margin-bottom: 20px;
-  color: black;
+  color: greenyellow;
   
 }
 i:hover{
   color: red;
+  margin-bottom: 30px;
 }
 .link span{
   margin-left: 15px;
   font-size: 17px;
-  color: #332B35CC;
+  color: #559242;
 }
 .link span:hover{
   color: ghostwhite;
+}
+.ihead{
+  background: #54D123;
+  margin-left: 50px ;
+  top: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 3px red;
+  
+  
+  
+}
+.ihead:hover{
+  background: black;
+  color: white;
+}
+.own{
+  margin-top: 40px;
+  display: block;
+  width: 300px;
+  margin-left: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 3px 3px red;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+.ow{
+  margin-top: -63px;
+  height: 40px;
+  display: block;
+  width: 300px;
+  margin-left: 30px;
+  text-align: center;
+  
+  padding: 10px;
+  border-radius: 10px;
+  
+  color: #CACCE9BD;
+  
+  
+  
+}
+ow:hover{
+  display: block;
+  color: red;
+  
+
+}
+.own:hover{
+  color: black;
+  background: black;
+    box-shadow: 0px 0px 3px 3px green;
+  
+  /*যদি একই যায়গার উপড় মানে একটা লেখার উপড় 
+  হোবার করলে আরেকটি আনতে চাই তাহলে আগের লেখাটার উপড় হোবার এর css color and background একই হতে হবে এবং শুধু আগের লেখায় কাজ করবে আর ২য় লেখার কালার হতে হবে সাদা যা পূর্বের লেখার সাথে ম্যাচ না করে ২য় টার height width  customise করতে হবে*/
+}
+.main-image {
+  margin-top: 100px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 2px solid greenyellow;
+  padding: 5px;
+  
+}
+.main-image img{
+  
+  width: 30%;
 }
